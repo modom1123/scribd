@@ -96,6 +96,26 @@
     border-top: 1px solid var(--line);
   }
 
+  .part-label {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    color: var(--chalk);
+    margin-bottom: 22px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .timestamp {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 18px;
+  }
+
   .beat-label {
     font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
@@ -208,23 +228,26 @@
   <div class="hero">
     <div class="eyebrow">Case study — handling ambiguity</div>
     <h1 class="hero-title">Talk to ten people.</h1>
-    <p class="hero-sub">My first day at Leadventure, that was the entire brief. No template, no scope, no one above me who'd already solved it. This is what happened after.</p>
+    <p class="hero-sub">Two moments at Leadventure, months apart, that show the same instinct: build the structure the ambiguity is missing, then defend it with better reasoning than volume.</p>
   </div>
 
   <section class="beat" id="s1">
+    <div class="part-label">Part I — Day one</div>
     <div class="beat-label">01 — The brief that wasn't one</div>
     <h2 class="beat-title">Go find out what's actually going on, and tell us what to do about it.</h2>
     <p>My first day at Leadventure, I was told to talk to ten people and come back with an agenda. Not a project, not a problem to solve — an agenda. It was on me to figure out what that even meant.</p>
   </section>
 
   <section class="beat" id="s2">
-    <div class="beat-label">02 — What ten conversations actually told me</div>
-    <h2 class="beat-title">The right call was to not blow anything up.</h2>
-    <p>I expected the conversations to point toward something new — a gap to fill, a fire to put out. Instead, what surfaced again and again was that the work already underway, the Tealium CDP build, was the right work. The risk wasn't that we were building the wrong thing; it was that stopping and restarting would cost more than staying the course.</p>
-    <p class="muted">The agenda I brought back wasn't a pitch for reinvention. It was a case for continuity — a harder thing to argue for on day one than a bold new direction, because it doesn't look like you've done anything yet.</p>
+    <div class="beat-label">02 — What ten conversations built</div>
+    <h2 class="beat-title">No template for either one, so the structure came from what kept repeating.</h2>
+    <p>Nobody handed me a format for "agenda." So I built one out of what those ten conversations actually gave me: the same handful of problems and priorities surfacing independently, across people who didn't necessarily agree on much else.</p>
+    <p class="muted">That pattern became a 90-day action plan — and the first product roadmap digital marketing ever had, because until then, digital marketing wasn't treated as a product at Leadventure at all. Not because I arrived with a plan — because I listened for what ten unrelated people kept saying without being asked to agree.</p>
   </section>
 
   <section class="beat" id="s3">
+    <div class="part-label">Part II — The trade-off</div>
+    <div class="timestamp">Months later — after the Tealium contract was signed, early in the internal automation build</div>
     <div class="beat-label">03 — The trade-off</div>
     <h2 class="beat-title">Sales wanted $1,200 to redirect the team. The scores did the arguing.</h2>
     <p>Sales wanted to shift build resources toward a $1,200 national ad campaign — pitched as a foot in the door with an OEM client we'd been trying to land.</p>
